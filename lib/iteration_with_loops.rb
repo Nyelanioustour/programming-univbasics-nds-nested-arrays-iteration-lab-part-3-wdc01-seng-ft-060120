@@ -14,7 +14,7 @@ def join_nested_strings(src)
    index_number += 1 
   end
   binding.pry
- output.to_s( )
+ output.to_s
   
   # src will be an Array of Arrays of Strings and Integers
   # Combine all Strings present in the AoA into a single value and return it
