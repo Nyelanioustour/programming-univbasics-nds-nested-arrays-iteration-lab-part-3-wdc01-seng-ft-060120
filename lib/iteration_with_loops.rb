@@ -1,4 +1,4 @@
-require 'pry'
+
 def join_nested_strings(src)
   index_number = 0 
   output = []
@@ -13,7 +13,7 @@ def join_nested_strings(src)
    end
    index_number += 1 
   end
-  binding.pry
+ 
  output.join( )
   
   # src will be an Array of Arrays of Strings and Integers
